@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Created by Marcel Engelmann -->
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="" name="description">
+    <meta content="Marcel Engelmann" name="author">
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <title>Realtimeboard</title>
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/realtime.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container">
+        <div class="pull-left">
+            <h1>Realtimeboard</h1><span>Some sub-header which explains the content.</span>
+            <small>You've been here since <span id="usertime">0</span> seconds.</small>
+        </div>
+        <div class="pull-right hidden-xs">
+            <h1>Your Company</h1>
+        </div>
+    </div>
+    <div class="container" id="page-wrapper">
+        <div class="row">
+
+            <!-- Real-Time Tabs -->
+            <div class="row" id="realtime-data">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 animated zoomIn">
+                    <div class="panel panel-realtimeboard-red-100">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <span aria-hidden="true" class="glyphicon glyphicon-heart glyphicon-lrb"></span>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" id="realtimeboard_1">0</div>
+                                    <div>Website optimized</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 animated zoomIn">
+                    <div class="panel panel-realtimeboard-red-75">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <span aria-hidden="true" class="glyphicon glyphicon-star glyphicon-lrb"></span>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" id="realtimeboard_2">0</div>
+                                    <div>Boots detected</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 animated zoomIn">
+                    <div class="panel panel-realtimeboard-red-50">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <span aria-hidden="true" class="glyphicon glyphicon-road glyphicon-lrb"></span>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" id="realtimeboard_3">0</div>
+                                    <div>Visitors</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 animated zoomIn">
+                    <div class="panel panel-realtimeboard-solid-silver-100">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <span aria-hidden="true" class="glyphicon glyphicon-refresh glyphicon-lrb">
+                                    </span>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" id="realtimeboard_4">0</div>
+                                    <div>Visitors who are cool</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 animated zoomIn">
+                    <div class="panel panel-realtimeboard-solid-silver-75">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <span aria-hidden="true" class="glyphicon glyphicon-bookmark glyphicon-lrb">
+                                    </span>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" id="realtimeboard_5">0</div>
+                                    <div>Cat videos uploaded to YouTube.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 animated zoomIn">
+                    <div class="panel panel-realtimeboard-solid-silver-50">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <span aria-hidden="true" class="glyphicon glyphicon-headphones glyphicon-lrb">
+                                    </span>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" id="realtimeboard_6">0</div>
+                                    <div>Money spend finding a programmer.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 animated zoomIn">
+                    <div class="panel panel-realtimeboard-blue-100">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <span aria-hidden="true" class="glyphicon glyphicon-ok-sign glyphicon-lrb">
+                                    </span>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" id="realtimeboard_7">0</div>
+                                    <div>People on marcelengelmann.com</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 animated zoomIn">
+                    <div class="panel panel-realtimeboard-blue-75">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <span aria-hidden="true" class="glyphicon glyphicon-fire glyphicon-lrb"></span>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" id="realtimeboard_8">0</div>
+                                    <div>Comments on my page.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 animated zoomIn">
+                    <div class="panel panel-realtimeboard-blue-50">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <span aria-hidden="true" class="glyphicon glyphicon-map-marker glyphicon-lrb">
+                                    </span>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" id="realtimeboard_9">0</div>
+                                    <div>Travel distance of my drone.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 animated zoomIn">
+                    <div class="panel panel-realtimeboard-green1">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <span aria-hidden="true" class="glyphicon glyphicon-heart glyphicon-lrb"></span>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" id="realtimeboard_10">0</div>
+                                    <div>Savings, from not buying stuff.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 animated zoomIn">
+                    <div class="panel panel-realtimeboard-green2">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <span aria-hidden="true" class="glyphicon glyphicon-thumbs-up glyphicon-lrb"></span>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" id="realtimeboard_11">0</div>
+                                    <div>Current level of fun.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 animated zoomIn">
+                    <div class="panel panel-realtimeboard-green3">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <span aria-hidden="true" class="glyphicon glyphicon-stats glyphicon-lrb"></span>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" id="realtimeboard_12">0</div>
+                                    <div>Thank you for reading :)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#page-wrapper -->
+
+    <!-- own JavaScript -->
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+/* Global Styles */
+body {
+    background: #fff;
+}
+
+h2{
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+#wrapper {
+    padding-left: 0;
+}
+
+/* Custom Colored Panels */
+
+#realtime-data{
+    padding: 20px 0 20px 0;
+}
+
+#realtime-data .panel {
+    height: 112px;
+}
+
+#realtime-data .panel-heading {
+    height: 112px;
+}
+
+#realtime-data .glyphicon-lrb{
+  font-size: 30px;
+}
+
+.huge {
+    font-size: 36px;
+}
+
+.panel-realtimeboard-red-100 .panel-heading
+{
+    background-color: rgba(224, 33, 41, 0.9);
+    background: rgba(224, 33, 41, 0.9);
+    color: #fff;
+}
+
+.panel-realtimeboard-red-75 .panel-heading
+{
+    background-color: rgba(224, 33, 41, 0.75);
+    background: rgba(224, 33, 41, 0.75);
+    color: #fff;
+}
+
+.panel-realtimeboard-red-50 .panel-heading
+{
+    background-color: rgba(224, 33, 41, 0.5);
+    background: rgba(224, 33, 41, 0.5);
+    color: #fff;
+}
+
+.panel-realtimeboard-red-25 .panel-heading
+{
+    background-color: rgba(224, 33, 41, 0.25);
+    background: rgba(224, 33, 41, 0.25);
+    color: #fff;
+}
+
+.panel-realtimeboard-solid-silver-100 .panel-heading
+{
+    background-color: rgba(75, 74, 77, 1);
+    background: rgba(75, 74, 77, 1);
+    color: #fff;
+}
+
+.panel-realtimeboard-solid-silver-75 .panel-heading
+{
+    background-color: rgba(75, 74, 77, 0.75);
+    background: rgba(75, 74, 77, 0.75);
+    color: #fff;
+}
+
+.panel-realtimeboard-solid-silver-50 .panel-heading
+{
+    background-color: rgba(75, 74, 77, 0.5);
+    background: rgba(75, 74, 77, 0.5);
+    color: #fff;
+}
+
+.panel-realtimeboard-solid-silver-25 .panel-heading
+{
+    background-color: rgba(75, 74, 77, 0.25);
+    background: rgba(75, 74, 77, 0.25);
+    color: #fff;
+}
+
+.panel-realtimeboard-blue-100 .panel-heading
+{
+    background-color: rgba(0, 172, 205, 1);
+    background: rgba(0, 172, 205, 1);
+    color: #fff;
+}
+
+.panel-realtimeboard-blue-75 .panel-heading
+{
+    background-color: rgba(0, 172, 205, 0.75);
+    background: rgba(0, 172, 205, 0.75);
+    color: #fff;
+}
+
+.panel-realtimeboard-blue-50 .panel-heading
+{
+    background-color: rgba(0, 172, 205, 0.5);
+    background: rgba(0, 172, 205, 0.5);
+    color: #fff;
+}
+
+.panel-realtimeboard-blue-25 .panel-heading
+{
+    background-color: rgba(0, 172, 205, 0.25);
+    background: rgba(0, 172, 205, 0.25);
+    color: #fff;
+}
+
+.panel-realtimeboard-green1 .panel-heading
+{
+    background-color: rgba(141, 203, 71, 1);
+    background: rgba(141, 203, 71, 1);
+    color: #fff;
+}
+
+.panel-realtimeboard-green2 .panel-heading
+{
+    background-color: rgba(141, 203, 71, 0.8);
+    background: rgba(141, 203, 71, 0.8);
+    color: #fff;
+}
+
+.panel-realtimeboard-green3 .panel-heading
+{
+    background-color: rgba(141, 203, 71, 0.75);
+    background: rgba(141, 203, 71, 0.75);
+    color: #fff;
+}
